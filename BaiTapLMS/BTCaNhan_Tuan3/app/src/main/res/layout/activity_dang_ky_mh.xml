@@ -6,7 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".DangKyMH">
+    tools:context=".DangKyMH"
+    android:layout_marginTop="35dp"
+    android:layout_marginBottom="35dp">
 
     <TextView
         android:id="@+id/txtViewHello"
@@ -15,8 +17,9 @@
         android:text="Đăng ký môn học"
         android:textAlignment="center"
         android:textColor="#3D58D9"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"/>
 
     <CheckBox
         android:id="@+id/ckbMIS"
@@ -60,11 +63,14 @@
 
     <Button
         android:id="@+id/btnDangKy"
-        android:layout_width="match_parent"
+        android:layout_width="302dp"
         android:layout_height="wrap_content"
         android:text="Đăng ký"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
 
     <TextView
         android:id="@+id/txtViewKetQuaDK"
@@ -81,25 +87,33 @@
         android:text="Tình trạng đăng ký"
         android:textAlignment="gravity"
         android:textColor="#3D58D9"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingLeft="25dp"/>
 
-    <RadioButton
-        android:id="@+id/radioTemporary"
+    <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tạm thời"
-        android:textColor="#0A9040"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
 
-    <RadioButton
-        android:id="@+id/radioOfficial"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Chính thức"
-        android:textColor="#AD06FF"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        <RadioButton
+            android:id="@+id/radioTemporary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tạm thời"
+            android:textColor="#0A9040"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"/>
+
+        <RadioButton
+            android:id="@+id/radioOfficial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chính thức"
+            android:textColor="#AD06FF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RadioGroup>
 
 </LinearLayout>

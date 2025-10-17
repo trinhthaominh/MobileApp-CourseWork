@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Login"
-    android:layout_marginTop="30dp">
+    android:gravity="center">
 
     <TextView
         android:id="@+id/textViewUname"
@@ -24,7 +24,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:ems="10"
-        android:inputType="text"/>
+        android:inputType="text"
+        android:hint="Username"/>
 
     <TextView
         android:id="@+id/textViewUpass"
@@ -33,7 +34,8 @@
         android:text="Password"
         android:textColor="@color/xanhUEH"
         android:textSize="24sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
 
     <EditText
         android:id="@+id/editUpass"
@@ -41,12 +43,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:ems="10"
-        android:inputType="text"/>
+        android:inputType="text"
+        android:hint="Password"/>
+
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="match_parent"
+        android:layout_width="317dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="LOGIN"
+        android:textSize="24sp"
         android:textStyle="bold"
-        android:textSize="24sp"/>
+        android:layout_marginTop="15dp"/>
 </LinearLayout>
