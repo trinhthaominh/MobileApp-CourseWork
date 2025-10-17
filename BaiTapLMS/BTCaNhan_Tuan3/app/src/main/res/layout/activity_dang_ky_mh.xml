@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DangKyMH">
+
+    <TextView
+        android:id="@+id/txtViewHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký môn học"
+        android:textAlignment="center"
+        android:textColor="#3D58D9"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/ckbMIS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hệ thống thông tin"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/ckbTinHocDaiCuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tin học đại cương"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/ckbCSDL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cơ sở dữ liệu"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/ckbLTMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lập trình Mobile"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/ckbEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anh văn"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDangKy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewKetQuaDK"
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:text="Danh sách môn đăng ký"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtViewStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tình trạng đăng ký"
+        android:textAlignment="gravity"
+        android:textColor="#3D58D9"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/radioTemporary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tạm thời"
+        android:textColor="#0A9040"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/radioOfficial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chính thức"
+        android:textColor="#AD06FF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
