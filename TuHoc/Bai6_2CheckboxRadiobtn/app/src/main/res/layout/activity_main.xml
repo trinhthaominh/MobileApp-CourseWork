@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="25dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sở thích:"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/chkNgheNhac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nghe nhạc" />
+
+    <CheckBox
+        android:id="@+id/chkXemPhim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem phim" />
+
+    <CheckBox
+        android:id="@+id/chkChoiTheThao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chơi thể thao" />
+
+    <CheckBox
+        android:id="@+id/chkShopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shopping" />
+
+    <CheckBox
+        android:id="@+id/chkDuLich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Du lịch" />
+
+    <Button
+        android:id="@+id/btnChonSoThich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn sở thích"
+        app:cornerRadius="5dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sở thích bạn chọn:" />
+
+    <EditText
+        android:id="@+id/edtSoThich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sở thích của bạn hiện ở đây"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sở thích:"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radNam"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:text="Nam" />
+
+        <RadioButton
+            android:id="@+id/radNu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nữ" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnXacNhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cornerRadius = "5dp"
+        android:text="Xác nhận" />
+
+
+</LinearLayout>
