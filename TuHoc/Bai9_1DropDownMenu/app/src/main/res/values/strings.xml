@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bai9_1DropDownMenu</string>
+<string-array name="arrNgonNgu">
+    <item>Tiếng Việt</item>
+    <item>English</item>
+    <item>French</item>
+    <item>German</item>
+    <item>Spanish</item>
+</string-array>
+</resources>

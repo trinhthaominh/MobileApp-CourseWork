@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bai8_1ListView</string>
+    <string-array name="arrQuocGia">
+        <item>Việt Nam</item>
+        <item>Mỹ</item>
+        <item>Anh</item>
+        <item>Lào</item>
+        <item>Campuchia</item>
+        <item>Thái Lan</item>
+    </string-array>
+</resources>

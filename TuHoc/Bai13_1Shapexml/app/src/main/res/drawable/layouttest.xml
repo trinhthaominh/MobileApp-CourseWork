@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+<!--solid đổ màu nền khối shape-->
+    <solid android:color="#88FFFF"/>
+<!--Tô vền khối shape-->
+<stroke android:width="5dp"
+    android:color="#000000"
+    android:dashWidth="15dp"
+    android:dashGap="5dp"
+    />
+
+    <corners android:radius="50dp" />
+    <padding android:top="10dp"/>
+
+    <gradient android:startColor="#FF33FF"
+        android:endColor="#33FFFF"
+        />
+
+</shape>
