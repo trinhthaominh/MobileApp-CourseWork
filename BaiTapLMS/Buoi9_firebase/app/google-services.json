@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "528154433116",
+    "firebase_url": "https://buoi9-firebase-ad88a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "buoi9-firebase-ad88a",
+    "storage_bucket": "buoi9-firebase-ad88a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528154433116:android:56f2bd02c90889d2a2b899",
+        "android_client_info": {
+          "package_name": "com.example.buoi9_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXoD-bndl4xIvCqdRYyivcCQQ3CzVsEBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
